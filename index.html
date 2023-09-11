@@ -65,8 +65,7 @@
 
     <main>
         <!-- banner section  -->
-        <!-- carousel section  -->
-        <div class="container mx-auto">
+        <section class="container mx-auto">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./images/banner1.png" class="w-full brightness-75" />
@@ -145,12 +144,262 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- sub banner  -->
+        <div
+            class="absolute flex justify-between items-center gap-5 text-center p-5 bg-white transform -translate-y-1/2 left-40 right-40 end-1/2 max-sm:hidden">
+            <div>
+                <img src="./images/fruit1.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="./images/fruit2.png" alt="">
+                <p>Orange</p>
+            </div>
+            <div>
+                <img src="./images/fruit3.png" alt="">
+                <p>Mango</p>
+            </div>
+            <div>
+                <img src="./images/fruit4.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="./images/fruit6.png" alt="">
+                <p>Apple</p>
+            </div>
         </div>
+
+
+        <!-- deal of the day section  -->
+        <section>
+            <!-- time  -->
+            <div
+                class="mt-40 max-sm:mt-5 grid grid-cols-1 lg:grid-cols-2 gap-5 mx-auto px-5 items-center container mb-5 max-sm:text-center">
+                <div class="max-sm:mx-5">
+                    <h1 class="font-bold max-sm:text-4xl text-5xl my-3">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <div class="flex items-center gap-5 text-center md:justify-center max-sm:justify-center">
+                    <div>
+                        <h1 class="font-bold text-5xl my-2">29</h1>
+                        <p>Days</p>
+                    </div>
+                    :
+                    <div>
+                        <h1 class="font-bold text-5xl my-2">15</h1>
+                        <p>Hours</p>
+                    </div>
+                    :
+                    <div>
+                        <h1 class="font-bold text-5xl my-2">25</h1>
+                        <p>Minutes</p>
+                    </div>
+                    :
+                    <div>
+                        <h1 class="font-bold text-5xl my-2">08</h1>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- fruits  -->
+            <div class="grid max-sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 container mx-auto">
+                <div class="card  bg-base-100 shadow-xl mx-auto">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">10$-12$</h2>
+                        <hr class="w-48 mx-auto my-3">
+                        <p>Mr. Dragon</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <a class="text-fuchsia-500 underline" onclick="my_modal_1.showModal()" href="#">Details</a>
+                    </div>
+                </div>
+
+                <div class="card  bg-base-100 shadow-xl mx-auto">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">7$-9$</h2>
+                        <hr class="w-48 mx-auto my-3">
+                        <p>Benanna</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                        </div>
+                        <a class="text-fuchsia-500 underline" onclick="my_modal_2.showModal()" href="#">Details</a>
+                    </div>
+                </div>
+
+                <div class="card  bg-base-100 shadow-xl mx-auto">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">11$-12$</h2>
+                        <hr class="w-48 mx-auto my-3">
+                        <p>Orange</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <a class="text-fuchsia-500 underline" onclick="my_modal_3.showModal()" href="#">Details</a>
+                    </div>
+                </div>
+
+                <div class="card  bg-base-100 shadow-xl mx-auto">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">12$-13$</h2>
+                        <hr class="w-48 mx-auto my-3">
+                        <p>APPLE</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <a class="text-fuchsia-500 underline" onclick="my_modal_4.showModal()" href="#">Details</a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn bg-rose-500 text-white flex justify-center mx-auto my-5">Shop All</button>
+
+
+
+            <!-- card modals  -->
+            <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box text-center">
+                    <img class="mx-auto" src="./images/fruit8.png" alt="">
+                    <h2 class="card-title flex justify-center">10$-12$</h2>
+                    <hr class="w-48 mx-auto my-3">
+                    <p>Mr. Dragon</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, modi!</p>
+                    <div class="rating my-5">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <div class="mx-auto">
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </form>
+            </dialog>
+            <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box text-center">
+                    <img class="mx-auto" src="./images/fruit9.png" alt="">
+                    <h2 class="card-title flex justify-center">7$-9$</h2>
+                    <hr class="w-48 mx-auto my-3">
+                    <p>Benanna</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, ipsa?</p>
+                    <div class="rating my-5">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    </div>
+                    <div class="mx-auto">
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </form>
+            </dialog>
+            <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box text-center">
+                    <img class="mx-auto" src="./images/fruit7.png" alt="">
+                    <h2 class="card-title flex justify-center">11$-12$</h2>
+                    <hr class="w-48 mx-auto my-3">
+                    <p>Orange</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, repellendus.</p>
+                    <div class="rating my-5">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <div class="mx-auto">
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </form>
+            </dialog>
+            <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box text-center">
+                    <img class="mx-auto" src="./images/fruit6.png" alt="">
+                    <h2 class="card-title flex justify-center">12$-13$</h2>
+                    <hr class="w-48 mx-auto my-3">
+                    <p>APPLE</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repudiandae?</p>
+                    <div class="rating my-5">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <div class="mx-auto">
+                        <button class="btn">Close</button>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </form>
+            </dialog>
+        </section>
     </main>
 
 
-    <footer>
-
+    <footer class="footer footer-center p-10 bg-black text-white rounded">
+        <a class="normal-case text-2xl flex font-bold">
+            <img class="w-8" src="./images/logo.png" alt=""> Fruit House
+        </a>
+        <div class="flex flex-row max-sm:flex-wrap gap-8">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover">Support</a>
+        </div>
+        <div>
+            <div class="grid grid-flow-col gap-5 text-3xl">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-behance"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-apple"></i>
+            </div>
+        </div>
+        <div>
+            <p>Copyright © 2023 - All right reserved by MD FAYSAL</p>
+        </div>
     </footer>
 </body>
 
